@@ -87,7 +87,7 @@ def get_num_of_documents(index):
   num = es.count(index=index, doc_type='doc')
   num = num['count']
 
-  print('\nNumber of images in', index, 'index:', num, '.\n')
+  # print('\nNumber of images in', index, 'index:', num, '.\n')
   return num
 
 # --------------------------
@@ -112,7 +112,7 @@ def get_all_documents(index, start=0, size=2):
     print('\nThere are no images in', index, 'index.\n')
 
   else:
-    print('\nAll images in', index, 'index:')
+    # print('\nAll images in', index, 'index:')
     for i in res['hits']['hits']:
       # print(i['_id'])
       # print(i['_source'])
@@ -136,7 +136,7 @@ def get_all_descriptions(index, image_ids):
   for id in image_ids:
     res1 = es.get_source(index=index, doc_type='doc', id=id)
     # print([i['description'] for i in res1['labelAnnotations']])
-    description_list.append([i['description'] for i in res1['labelAnnotations']])
+    description_list.append([i['description'].lower() for i in res1['labelAnnotations']])
 
   return description_list
 

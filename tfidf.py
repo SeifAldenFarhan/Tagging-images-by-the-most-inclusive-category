@@ -142,14 +142,15 @@ def computeTFIDF(TF_scores, IDF_scores):
 
 # -------------------------------------
 # MAIN
-# text = get_descripion("description")
-# text_sents = sent_tokenize(text)
-# text_sents_clean = [remove_string_special_charactors(s) for s in text_sents]
+text = get_descripion("description")
+text_sents = sent_tokenize(text)
+text_sents_clean = [remove_string_special_charactors(s) for s in text_sents]
+# pprint(text_sents_clean)
 # doc_info = get_doc(text_sents_clean)
-# # pprint(doc_info)
+# pprint(doc_info)
 #
-# freqDict_list = create_freq_dict(text_sents_clean)
-# # pprint(freqDict_list)
+freqDict_list = create_freq_dict(text_sents_clean)
+# pprint(freqDict_list)
 #
 # TF_scores = computeTF(doc_info, freqDict_list)
 # IDF_scores = computeIDF(doc_info, freqDict_list)
