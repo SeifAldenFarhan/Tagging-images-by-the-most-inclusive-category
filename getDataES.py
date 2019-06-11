@@ -1,5 +1,6 @@
 import json
 # import logging
+import os
 from pprint import pprint
 
 from elasticsearch import Elasticsearch
@@ -152,13 +153,13 @@ def write_to_file(descriptionList):
 # ---------------
 # ------- MAIN
 # ---------------
-
+# if not os.path.isfile('./description'):
 size = get_num_of_documents('labels')
 documents_ids = get_all_documents('labels', 0, size)
-pprint(documents_ids)
-print()
-print("----------------")
-print()
+# pprint(documents_ids)
+# print()
+# print("----------------")
+# print()
 descriptions = get_all_descriptions('labels', documents_ids)
 # pprint(descriptions)
 write_to_file(descriptions)

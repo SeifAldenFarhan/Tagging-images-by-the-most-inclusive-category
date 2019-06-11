@@ -1,9 +1,13 @@
+from collections import defaultdict
 from pprint import pprint
+
+from sklearn.cluster import KMeans
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 import tfidf
 import getDataES
 
-
+from getDataES import documents_ids
 class Groups:
 
   # def __init__(self):
@@ -51,10 +55,43 @@ class Groups:
 
     return photo_groups
 
+  def toGroups(self, num):
+    text = tfidf.get_descripion("description")
+    text_1 = (text.split('.\n'))
+    # pprint(text_1)
+    vectorizer = TfidfVectorizer(stop_words='english')
+    X = vectorizer.fit_transform(text_1)
+    # print(X)
+    true_k = num
+    model = KMeans(n_clusters=true_k, init='k-means++', max_iter=100, n_init=1)
+    model.fit(X)
+
+    # print("Top terms per cluster:")
+    order_centroids = model.cluster_centers_.argsort()[:, ::-1]
+    # pprint(order_centroids)
+    terms = vectorizer.get_feature_names()
+    # pprint(terms)
+    # for i in range(true_k):
+    #   print("Cluster %d:" % i),
+    #   for ind in order_centroids[i, :10]:
+    #     print(' %s' % terms[ind]),
+    #   print()
+
+    # print("\n")
+    # print("Prediction")
+    groups_list = defaultdict(list)
+    # print(groups_list)
+    for i in range(len(text_1)-1):
+      Y = vectorizer.transform([text_1[i]])
+      prediction = model.predict(Y)
+      groups_list[f"{prediction}"].append(documents_ids[i])
+      # print(documents_ids[i], prediction)
+    # pprint(groups_list)
+    return groups_list
 
 # --- MAIN
 groups = Groups()
 # pprint(groups.run_tfidf())
-pprint(groups.top_score(6))
-pprint(groups.split_to_groups(6))
-
+# pprint(groups.top_score(6))
+# pprint(groups.split_to_groups(6))
+groups.toGroups(4)

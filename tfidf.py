@@ -10,6 +10,8 @@ from pprint import pprint
 #   for line in f.readlines():
 #     text += line
 #     # text += '.'
+from sklearn.cluster import KMeans
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 def get_descripion(file_name):
@@ -144,8 +146,9 @@ def computeTFIDF(TF_scores, IDF_scores):
 # MAIN
 text = get_descripion("description")
 text_sents = sent_tokenize(text)
+# pprint(text_sents[0])
 text_sents_clean = [remove_string_special_charactors(s) for s in text_sents]
-# pprint(text_sents_clean)
+# pprint(text_sents_clean[0])
 # doc_info = get_doc(text_sents_clean)
 # pprint(doc_info)
 #
@@ -160,3 +163,4 @@ freqDict_list = create_freq_dict(text_sents_clean)
 # pprint(IDF_scores)
 # pprint(TFIDF_score)
 # pprint(remove_string_special_charactors(text))
+
