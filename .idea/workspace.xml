@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73228a42-9bb8-48f9-8ca0-a5e1103f90bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/beta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/description" beforeDir="false" afterPath="$PROJECT_DIR$/description" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getDataES.py" beforeDir="false" afterPath="$PROJECT_DIR$/getDataES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beta.py" beforeDir="false" afterPath="$PROJECT_DIR$/beta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstPageGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstPageGui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/groups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/tfidf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondPageGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/secondPageGui.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="getDataES.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getDataES.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="164" column="9" selection-start-line="164" selection-start-column="9" selection-end-line="164" selection-end-column="9" />
+            <state relative-caret-position="-2006">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -34,8 +32,8 @@
       <file leaf-file-name="beta.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/beta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="336">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -43,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gui.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui.py">
+      <file leaf-file-name="firstPageGui.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstPageGui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -55,13 +53,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gui2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gui2.py">
+      <file leaf-file-name="secondPageGui.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/secondPageGui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="132">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#190#200#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,7 +68,7 @@
       <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2279">
+            <state relative-caret-position="-2393">
               <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -82,8 +80,8 @@
       <file leaf-file-name="groups.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groups.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="35" />
+            <state relative-caret-position="-1143">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -124,12 +122,14 @@
         <option value="$PROJECT_DIR$/tfidf.py" />
         <option value="$PROJECT_DIR$/description" />
         <option value="$PROJECT_DIR$/getDataES.py" />
-        <option value="$PROJECT_DIR$/groups.py" />
         <option value="$PROJECT_DIR$/QtImageViewer.py" />
-        <option value="$PROJECT_DIR$/beta.py" />
         <option value="$PROJECT_DIR$/groupImagesGUI.py" />
         <option value="$PROJECT_DIR$/gui.py" />
         <option value="$PROJECT_DIR$/gui2.py" />
+        <option value="$PROJECT_DIR$/groups.py" />
+        <option value="$PROJECT_DIR$/beta.py" />
+        <option value="$PROJECT_DIR$/firstPageGui.py" />
+        <option value="$PROJECT_DIR$/secondPageGui.py" />
       </list>
     </option>
   </component>
@@ -210,7 +210,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="groupImagesGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="groups" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tagging-images-by-the-most-inclusive-category" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +222,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/groupImagesGUI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/groups.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,18 +266,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.gui" />
-      <item itemvalue="Python.beta" />
-      <item itemvalue="Python.groupImagesGUI" />
       <item itemvalue="Python.gui2" />
       <item itemvalue="Python.firstPageGui" />
+      <item itemvalue="Python.groups" />
+      <item itemvalue="Python.beta" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.firstPageGui" />
+        <item itemvalue="Python.beta" />
+        <item itemvalue="Python.groups" />
         <item itemvalue="Python.gui" />
         <item itemvalue="Python.gui2" />
-        <item itemvalue="Python.groupImagesGUI" />
-        <item itemvalue="Python.beta" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553623977403</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Almost finished the project">
+      <created>1560257090989</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560257090989</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -323,7 +330,7 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13434023" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.24686942" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.13059033" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -345,19 +352,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add group file to split the images" />
     <MESSAGE value="get top tags to split the photos" />
-    <option name="LAST_COMMIT_MESSAGE" value="get top tags to split the photos" />
+    <MESSAGE value="Almost finished the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost finished the project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getDataES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/description">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -734,36 +732,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QtImageViewer.py" />
-    <entry file="file://$PROJECT_DIR$/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2279">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/groups.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getDataES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="164" column="9" selection-start-line="164" selection-start-column="9" selection-end-line="164" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/description">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -771,42 +739,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/groupImagesGUI.py" />
+    <entry file="file://$PROJECT_DIR$/me.jpg" />
+    <entry file="file://$PROJECT_DIR$/getDataES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2006">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2393">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/beta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="336">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/groupImagesGUI.py">
+    <entry file="file://$PROJECT_DIR$/groups.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="-1143">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
+    <entry file="file://$PROJECT_DIR$/firstPageGui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui2.py">
+    <entry file="file://$PROJECT_DIR$/secondPageGui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="132">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#190#200#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

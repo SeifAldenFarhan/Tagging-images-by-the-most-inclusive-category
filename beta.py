@@ -15,9 +15,15 @@ class beta:
     # print("HERE2")
 
   def divideToGroups(self, num):
-    return groups.toGroups(num)
+    res = groups.toGroups(num)
+    return res[0]
+
+  def groupsDiscription(self, num):
+    res = groups.toGroups(num)
+    return res[1]
+
 
 b = beta()
-lab = "labels"
-b.getDataFromES(lab)
-b.divideToGroups(3)
+# lab = "labels"
+# b.getDataFromES(lab)
+# b.divideToGroups(3)

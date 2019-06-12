@@ -9,13 +9,14 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow, photo_list):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(QSize(800, 600))
-        MainWindow.sizeIncrement()
 
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        # self.centralwidget.setFixedHeight(900)
         self.lay_m = QVBoxLayout(self.centralwidget)
         MainWindow.setCentralWidget(self.centralwidget)
         self.display_photo(photo_list)
+
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
@@ -26,19 +27,21 @@ class Ui_MainWindow(object):
       photo_num = len(photo_list)
       global lay
       for i in range(photo_num):
-          if (i % 3) == 0:
-            lay = QHBoxLayout(self.centralwidget)
-            self.lay_m.addLayout(lay)
-          label = QLabel(self.centralwidget)
-          # label.move(80, 30)
-          pixmap = QPixmap(f'C:\\Users\seif alden\Desktop\\final project\אלפא\photos\{photo_list[i]}')
-          label.setPixmap(pixmap)
-          label.setFixedSize(250, 250)
-          lay.addWidget(label)
+        if (i % 4) == 0:
+          lay = QHBoxLayout(self.centralwidget)
+          self.lay_m.addLayout(lay)
+        label = QLabel(self.centralwidget)
+        pixmap = QPixmap(f'C:\\Users\seif alden\Desktop\\final project\אלפא\photos\{photo_list[i]}')
+        label.setPixmap(pixmap)
+        label.setFixedSize(250, 250)
+        lay.addWidget(label)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+
+    def mouseEvent(self):
+      print("Hello!")
 
 
 photo_list = []

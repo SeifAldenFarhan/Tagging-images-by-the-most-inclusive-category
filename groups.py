@@ -9,9 +9,6 @@ import getDataES
 
 from getDataES import documents_ids
 class Groups:
-
-  # def __init__(self):
-
   @staticmethod
   def run_tfidf():
     text = tfidf.get_descripion("description")
@@ -70,12 +67,16 @@ class Groups:
     order_centroids = model.cluster_centers_.argsort()[:, ::-1]
     # pprint(order_centroids)
     terms = vectorizer.get_feature_names()
+    terms_list = []
     # pprint(terms)
-    # for i in range(true_k):
-    #   print("Cluster %d:" % i),
-    #   for ind in order_centroids[i, :10]:
-    #     print(' %s' % terms[ind]),
-    #   print()
+    for i in range(true_k):
+      # print("Cluster %d:" % i),
+      term_list = []
+      for ind in order_centroids[i, :10]:
+        term_list.append(terms[ind])
+        # print(' %s' % terms[ind]),
+      terms_list.append(term_list)
+      # print()
 
     # print("\n")
     # print("Prediction")
@@ -87,11 +88,11 @@ class Groups:
       groups_list[f"{prediction}"].append(documents_ids[i])
       # print(documents_ids[i], prediction)
     # pprint(groups_list)
-    return groups_list
+    return groups_list, terms_list
 
 # --- MAIN
 groups = Groups()
 # pprint(groups.run_tfidf())
 # pprint(groups.top_score(6))
 # pprint(groups.split_to_groups(6))
-groups.toGroups(4)
+# groups.toGroups(4)

@@ -8,7 +8,7 @@ from secondPageGui import Ui_MainWindow
 class Ui_Form(object):
   def setupUi(self, Form):
     Form.setObjectName("Form")
-    Form.resize(640, 560)
+    Form.resize(680, 580)
     self.images_group_list = []
 
     self.submit = QtWidgets.QPushButton(Form)
@@ -18,7 +18,7 @@ class Ui_Form(object):
     self.submit.setObjectName("submit")
 
     self.checkPhotos = QtWidgets.QPushButton(Form)
-    self.checkPhotos.setGeometry(QtCore.QRect(300, 350, 175, 31))
+    self.checkPhotos.setGeometry(QtCore.QRect(160, 530, 175, 31))
     self.checkPhotos.clicked.connect(lambda: self.checkPhotosFun())
     self.checkPhotos.setObjectName("checkPhotos")
 
@@ -32,6 +32,13 @@ class Ui_Form(object):
     self.listWidget.setGeometry(QtCore.QRect(30, 230, 151, 270))
     self.listWidget.setObjectName("listWidget")
     self.listWidget.setDisabled(True)
+
+    self.listWidget.clicked.connect(lambda: self.item_clicked())
+
+    self.listWidget1 = QtWidgets.QListWidget(Form)
+    self.listWidget1.setGeometry(QtCore.QRect(250, 230, 251, 270))
+    self.listWidget1.setObjectName("listWidget1")
+    self.listWidget1.setDisabled(True)
 
     self.widget = QtWidgets.QWidget(Form)
     self.widget.setGeometry(QtCore.QRect(20, 30, 471, 81))
@@ -67,6 +74,7 @@ class Ui_Form(object):
 
     self.retranslateUi(Form)
     self.submit.clicked.connect(self.listWidget.update)
+
     QtCore.QMetaObject.connectSlotsByName(Form)
 
   def retranslateUi(self, Form):
@@ -75,8 +83,9 @@ class Ui_Form(object):
     self.submit.setText(_translate("Form", "Submit"))
     self.checkPhotos.setText(_translate("Form", "Check Photos"))
     __sortingEnabled = self.listWidget.isSortingEnabled()
-
     self.listWidget.setSortingEnabled(__sortingEnabled)
+    __sortingEnabled = self.listWidget1.isSortingEnabled()
+    self.listWidget1.setSortingEnabled(__sortingEnabled)
     self.label.setText(_translate("Form",
                                   "<html><head/><body><p><span style=\" font-size:9pt;\">Chose the label:</span></p></body></html>"))
     self.label_name.setItemText(0, _translate("Form", "labels"))
@@ -90,17 +99,26 @@ class Ui_Form(object):
                                                 "font-size:9pt;\">Number of groups:</span></p></body></html>"))
 
   def submitFun(self):
-    # b = beta()
-    # print(self.label_name.currentText(), self.groups_number.value())
-    beta().getDataFromES(self.label_name.currentText())
-    self.images_group_list = beta().divideToGroups(self.groups_number.value())
     self.listWidget.setDisabled(False)
     self.listWidget.clear()
+    beta().getDataFromES(self.label_name.currentText())
+    self.images_group_list = beta().divideToGroups(self.groups_number.value())
     num = int(self.groups_number.text())
     for i in range(num):
       item = QListWidgetItem("Group %i" % (i + 1))
       self.listWidget.addItem(item)
     self.listWidget.show()
+
+  def item_clicked(self):
+    self.listWidget1.setDisabled(False)
+    self.listWidget1.clear()
+    groups_discription = beta().groupsDiscription(self.groups_number.value())
+    group_number = self.listWidget.currentItem().text()[-1]
+    num = int(group_number) - 1
+    for i in range(10):
+      item = QListWidgetItem(f"{groups_discription[num][i]}")
+      self.listWidget1.addItem(item)
+    self.listWidget1.show()
 
   @pyqtSlot()
   def checkPhotosFun(self):
