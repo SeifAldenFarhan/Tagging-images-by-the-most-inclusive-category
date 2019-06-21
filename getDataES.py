@@ -5,6 +5,7 @@ from pprint import pprint
 
 from elasticsearch import Elasticsearch
 
+
 # The possible indices in storage:
 indices = ['labels', 'landmarks', 'logos', 'web', 'faces', 'text']
 

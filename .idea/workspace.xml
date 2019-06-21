@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73228a42-9bb8-48f9-8ca0-a5e1103f90bc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/directoryPath.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beta.py" beforeDir="false" afterPath="$PROJECT_DIR$/beta.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstPageGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstPageGui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getDataES.py" beforeDir="false" afterPath="$PROJECT_DIR$/getDataES.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/groups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondPageGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/secondPageGui.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="getDataES.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getDataES.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2006">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="239">
+              <caret line="157" column="35" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="35" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -32,8 +32,8 @@
       <file leaf-file-name="beta.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/beta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="272">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -41,23 +41,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="firstPageGui.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="firstPageGui.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firstPageGui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state>
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#190#232#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="secondPageGui.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="firstPageGui1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstPageGui1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#1#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secondPageGui.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/secondPageGui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-291">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordCloude.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordCloude.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directoryPath.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/directoryPath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -68,7 +99,7 @@
       <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2393">
+            <state relative-caret-position="-628">
               <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -80,8 +111,8 @@
       <file leaf-file-name="groups.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groups.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1143">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="156">
+              <caret line="95" column="17" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -107,10 +138,12 @@
       <find>Submet</find>
       <find>submet</find>
       <find>Submit</find>
+      <find>spinBox</find>
     </findStrings>
     <replaceStrings>
       <replace>submit</replace>
       <replace>Submit</replace>
+      <replace>groups_number</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -121,23 +154,25 @@
       <list>
         <option value="$PROJECT_DIR$/tfidf.py" />
         <option value="$PROJECT_DIR$/description" />
-        <option value="$PROJECT_DIR$/getDataES.py" />
         <option value="$PROJECT_DIR$/QtImageViewer.py" />
         <option value="$PROJECT_DIR$/groupImagesGUI.py" />
         <option value="$PROJECT_DIR$/gui.py" />
         <option value="$PROJECT_DIR$/gui2.py" />
-        <option value="$PROJECT_DIR$/groups.py" />
         <option value="$PROJECT_DIR$/beta.py" />
-        <option value="$PROJECT_DIR$/firstPageGui.py" />
         <option value="$PROJECT_DIR$/secondPageGui.py" />
+        <option value="$PROJECT_DIR$/getDataES.py" />
+        <option value="$PROJECT_DIR$/directoryPath.py" />
+        <option value="$PROJECT_DIR$/wordCloude.py" />
+        <option value="$PROJECT_DIR$/groups.py" />
+        <option value="$PROJECT_DIR$/firstPageGui1.py" />
+        <option value="$PROJECT_DIR$/firstPageGui.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="3235" />
-    <option name="height" value="1735" />
+    <option name="width" value="1628" />
+    <option name="height" value="1715" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -173,25 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.firstPageGui">
-    <configuration name="beta" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Tagging-images-by-the-most-inclusive-category" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/beta.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.firstPageGui1">
     <configuration name="firstPageGui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tagging-images-by-the-most-inclusive-category" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,6 +222,42 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/firstPageGui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="firstPageGui1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tagging-images-by-the-most-inclusive-category" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/firstPageGui1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="getDataES" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tagging-images-by-the-most-inclusive-category" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getDataES.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,7 +281,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wordCloude" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tagging-images-by-the-most-inclusive-category" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,44 +293,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\seif alden\Desktop\Tagging-images-by-the-most-inclusive-category\firstPageGui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="gui2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Tagging-images-by-the-most-inclusive-category" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\seif alden\Desktop\Tagging-images-by-the-most-inclusive-category\secondPageGui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordCloude.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.gui" />
-      <item itemvalue="Python.gui2" />
       <item itemvalue="Python.firstPageGui" />
       <item itemvalue="Python.groups" />
-      <item itemvalue="Python.beta" />
+      <item itemvalue="Python.getDataES" />
+      <item itemvalue="Python.firstPageGui1" />
+      <item itemvalue="Python.wordCloude" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.firstPageGui1" />
         <item itemvalue="Python.firstPageGui" />
-        <item itemvalue="Python.beta" />
         <item itemvalue="Python.groups" />
-        <item itemvalue="Python.gui" />
-        <item itemvalue="Python.gui2" />
+        <item itemvalue="Python.wordCloude" />
+        <item itemvalue="Python.getDataES" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560257090989</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New feature">
+      <created>1560307141100</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560307141100</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -330,7 +372,7 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13434023" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.13059033" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3309481" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -353,46 +395,10 @@
     <MESSAGE value="add group file to split the images" />
     <MESSAGE value="get top tags to split the photos" />
     <MESSAGE value="Almost finished the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost finished the project" />
+    <MESSAGE value="New feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="New feature" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/description">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/groups.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getDataES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/description">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -741,19 +747,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/groupImagesGUI.py" />
     <entry file="file://$PROJECT_DIR$/me.jpg" />
-    <entry file="file://$PROJECT_DIR$/getDataES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2006">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tfidf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2393">
+        <state relative-caret-position="-628">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -761,10 +757,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/sklearn/feature_extraction/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="1120" column="8" selection-start-line="1120" selection-start-column="8" selection-end-line="1120" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getDataES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="157" column="35" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordCloude.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directoryPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/beta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="272">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -773,30 +803,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/groups.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1143">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="156">
+          <caret line="95" column="17" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstPageGui.py">
+    <entry file="file://$PROJECT_DIR$/secondPageGui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-291">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/secondPageGui.py">
+    <entry file="file://$PROJECT_DIR$/firstPageGui1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state>
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#1#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstPageGui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#190#232#0" expanded="true" />
           </folding>
         </state>
       </provider>

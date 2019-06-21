@@ -72,7 +72,7 @@ class Groups:
     for i in range(true_k):
       # print("Cluster %d:" % i),
       term_list = []
-      for ind in order_centroids[i, :10]:
+      for ind in order_centroids[i, :len(terms)]:
         term_list.append(terms[ind])
         # print(' %s' % terms[ind]),
       terms_list.append(term_list)
@@ -85,6 +85,7 @@ class Groups:
     for i in range(len(text_1)-1):
       Y = vectorizer.transform([text_1[i]])
       prediction = model.predict(Y)
+      print(prediction)
       groups_list[f"{prediction}"].append(documents_ids[i])
       # print(documents_ids[i], prediction)
     # pprint(groups_list)
@@ -95,4 +96,4 @@ groups = Groups()
 # pprint(groups.run_tfidf())
 # pprint(groups.top_score(6))
 # pprint(groups.split_to_groups(6))
-# groups.toGroups(4)
+# groups.toGroups(3)
