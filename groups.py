@@ -1,5 +1,4 @@
 from collections import defaultdict
-from pprint import pprint
 
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -19,7 +18,6 @@ class Groups:
     TF_scores = tfidf.computeTF(doc_info, freqDict_list)
     IDF_scores = tfidf.computeIDF(doc_info, freqDict_list)
     TFIDF_score = tfidf.computeTFIDF(TF_scores, IDF_scores)
-    # pprint(TFIDF_score)
     return TFIDF_score
 
   def top_score(self, num):
@@ -40,14 +38,11 @@ class Groups:
     top_tags = self.top_score(num)
     photo_groups = {}
 
-    # pprint(descriptions)
     for i in range(num):
       photo_groups[top_tags[i]] = []
       for j in range(len(documents_ids)):
         for k in range(len(descriptions[j])):
           if top_tags[i] in descriptions[j][k].split(" "):
-            #or [[top_tags[i] in descriptions[j][k].split()] for k in range(len(descriptions[j]))]:
-            # pprint("-0-0-0-0" + documents_ids[j])
             photo_groups[top_tags[i]].append(documents_ids[j])
 
     return photo_groups
@@ -55,45 +50,27 @@ class Groups:
   def toGroups(self, num):
     text = tfidf.get_descripion("description")
     text_1 = (text.split('.\n'))
-    # pprint(text_1)
     vectorizer = TfidfVectorizer(stop_words='english')
     X = vectorizer.fit_transform(text_1)
-    # print(X)
+    print(X)
     true_k = num
     model = KMeans(n_clusters=true_k, init='k-means++', max_iter=100, n_init=1)
     model.fit(X)
-
-    # print("Top terms per cluster:")
     order_centroids = model.cluster_centers_.argsort()[:, ::-1]
-    # pprint(order_centroids)
     terms = vectorizer.get_feature_names()
     terms_list = []
-    # pprint(terms)
     for i in range(true_k):
-      # print("Cluster %d:" % i),
       term_list = []
       for ind in order_centroids[i, :len(terms)]:
         term_list.append(terms[ind])
-        # print(' %s' % terms[ind]),
       terms_list.append(term_list)
-      # print()
-
-    # print("\n")
-    # print("Prediction")
     groups_list = defaultdict(list)
-    # print(groups_list)
     for i in range(len(text_1)-1):
       Y = vectorizer.transform([text_1[i]])
       prediction = model.predict(Y)
-      print(prediction)
       groups_list[f"{prediction}"].append(documents_ids[i])
-      # print(documents_ids[i], prediction)
-    # pprint(groups_list)
     return groups_list, terms_list
+
 
 # --- MAIN
 groups = Groups()
-# pprint(groups.run_tfidf())
-# pprint(groups.top_score(6))
-# pprint(groups.split_to_groups(6))
-# groups.toGroups(3)

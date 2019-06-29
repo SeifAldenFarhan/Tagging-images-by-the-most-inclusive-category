@@ -1,17 +1,9 @@
 import json
-# import logging
-import os
-from pprint import pprint
-
 from elasticsearch import Elasticsearch
 
 
 # The possible indices in storage:
 indices = ['labels', 'landmarks', 'logos', 'web', 'faces', 'text']
-
-# Disable all non-ERROR level messages.
-# This allows to check the connection without logging traceback.
-# logging.basicConfig(level=logging.ERROR)
 
 es = Elasticsearch()  # Represents the elasticsearch client.
 
@@ -56,7 +48,6 @@ def get_images_by_words(words, start=0):
         ]
       }
     }  # , fuzzy
-    # 'stored_fields' : ['Image path']
   }
 
   files = []
@@ -73,7 +64,6 @@ def get_images_by_words(words, start=0):
       print(i['_id'])
       files.append(i['_source']['Image path'] + '/' + i['_id'])
 
-  # Return path of all files, and number of total files that were found.
   return [files, res['hits']['total']]
 
 
@@ -89,7 +79,6 @@ def get_num_of_documents(index):
   num = es.count(index=index, doc_type='doc')
   num = num['count']
 
-  # print('\nNumber of images in', index, 'index:', num, '.\n')
   return num
 
 # --------------------------
@@ -102,42 +91,24 @@ def get_all_documents(index, start=0, size=2):
     return None
 
   image_ids = []
-  description_list = []
-
   query = {'query': {'match_all': {}}, 'stored_fields': []}
 
   res = es.search(index=index, doc_type='doc', body=query, from_=start, size=size)
-  # res1 = es.get_source(index=index, doc_type='doc', id='download.jpg')
-  # print(res1['labelAnnotations']['description'])
 
   if int(res['hits']['total']) == 0:
     print('\nThere are no images in', index, 'index.\n')
 
   else:
-    # print('\nAll images in', index, 'index:')
     for i in res['hits']['hits']:
-      # print(i['_id'])
-      # print(i['_source'])
-      # print(i['_score'])
       image_ids.append(i['_id'])
-
-      # ---- get the description for each image
-      # res1 = es.get_source(index=index, doc_type='doc', id=i['_id'])
-      # print([i['description'] for i in res1['labelAnnotations']])
-      # description_list.append([i['description'] for i in res1['labelAnnotations']])
-
-  # pprint(description_list)
   return image_ids
 
 
 # ----------------------
-
 def get_all_descriptions(index, image_ids):
   description_list = []
-
   for id in image_ids:
     res1 = es.get_source(index=index, doc_type='doc', id=id)
-    # print([i['description'] for i in res1['labelAnnotations']])
     description_list.append([i['description'].lower() for i in res1['labelAnnotations']])
 
   return description_list
@@ -154,13 +125,7 @@ def write_to_file(descriptionList):
 # ---------------
 # ------- MAIN
 # ---------------
-# if not os.path.isfile('./description'):
 size = get_num_of_documents('labels')
 documents_ids = get_all_documents('labels', 0, size)
-# pprint(documents_ids)
-# print()
-# print("----------------")
-# print()
 descriptions = get_all_descriptions('labels', documents_ids)
-# pprint(descriptions)
 write_to_file(descriptions)

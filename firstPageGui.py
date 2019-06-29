@@ -138,6 +138,7 @@ class Ui_Form(object):
     def getPathFun(self):
       a = directoryPath.App()
       self.dirPath = a.path
+      print(self.dirPath)
 
     def classifyFunc(self):
       self.listWidget.setDisabled(False)
@@ -159,7 +160,7 @@ class Ui_Form(object):
       list_m.append(group_number)
       self.ex = Ui_MainWindow()
       self.w = QtWidgets.QMainWindow()
-      self.ex.setupUi(self.w, list_m)
+      self.ex.setupUi(self.w, list_m, self.dirPath)
       self.w.show()
 
     def wordCloudFunc(self):

@@ -24,7 +24,9 @@ class App(QWidget):
   def openFileNameDialog(self):
     options = QFileDialog.Options()
     options |= QFileDialog.DontUseNativeDialog
-    dirName = QFileDialog.getExistingDirectory(self, options=options)
+    dirName = QFileDialog.getExistingDirectory(self, "Select Directory",
+                                               "C:\\Users\seif alden\Desktop\\final project\\beta",
+                                               options=options)
 
     if dirName:
       self.path = dirName

@@ -1,17 +1,6 @@
-import nltk
 import re
-from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
 import math
-from pprint import pprint
-
-# text = ""
-# with open("description", "r") as f:
-#   for line in f.readlines():
-#     text += line
-#     # text += '.'
-from sklearn.cluster import KMeans
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 def get_descripion(file_name):
@@ -83,7 +72,6 @@ def create_freq_dict(sents):
     i += 1
     freq_dict = {}
     words = word_tokenize(sent)
-    # pprint(words)
     for word in words:
       word = word.lower()
       if word in freq_dict:
@@ -136,7 +124,6 @@ def computeTFIDF(TF_scores, IDF_scores):
         temp = {'doc_id': j['doc_id'],
                 'TFIDF_score': (j['IDF_score'] * i['TF_score']),
                 'key': i['key']}
-    # pprint(temp)
     TFIDF_scores.append(temp)
   TFIDF_scores = sorted(TFIDF_scores, key=lambda score: score['TFIDF_score'], reverse=False)
   return TFIDF_scores
@@ -146,21 +133,5 @@ def computeTFIDF(TF_scores, IDF_scores):
 # MAIN
 text = get_descripion("description")
 text_sents = sent_tokenize(text)
-# pprint(text_sents[0])
 text_sents_clean = [remove_string_special_charactors(s) for s in text_sents]
-# pprint(text_sents_clean[0])
-# doc_info = get_doc(text_sents_clean)
-# pprint(doc_info)
-#
 freqDict_list = create_freq_dict(text_sents_clean)
-# pprint(freqDict_list)
-#
-# TF_scores = computeTF(doc_info, freqDict_list)
-# IDF_scores = computeIDF(doc_info, freqDict_list)
-# TFIDF_score = computeTFIDF(TF_scores, IDF_scores)
-
-# pprint(TF_scores)
-# pprint(IDF_scores)
-# pprint(TFIDF_score)
-# pprint(remove_string_special_charactors(text))
-
