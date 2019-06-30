@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="73228a42-9bb8-48f9-8ca0-a5e1103f90bc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beta.py" beforeDir="false" afterPath="$PROJECT_DIR$/beta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directoryPath.py" beforeDir="false" afterPath="$PROJECT_DIR$/directoryPath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstPageGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstPageGui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getDataES.py" beforeDir="false" afterPath="$PROJECT_DIR$/getDataES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/groups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondPageGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/secondPageGui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/tfidf.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +16,8 @@
       <file leaf-file-name="getDataES.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getDataES.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="867">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -148,7 +141,6 @@
         <option value="$PROJECT_DIR$/gui.py" />
         <option value="$PROJECT_DIR$/gui2.py" />
         <option value="$PROJECT_DIR$/wordCloude.py" />
-        <option value="$PROJECT_DIR$/firstPageGui1.py" />
         <option value="$PROJECT_DIR$/directoryPath.py" />
         <option value="$PROJECT_DIR$/firstPageGui.py" />
         <option value="$PROJECT_DIR$/secondPageGui.py" />
@@ -156,12 +148,13 @@
         <option value="$PROJECT_DIR$/tfidf.py" />
         <option value="$PROJECT_DIR$/beta.py" />
         <option value="$PROJECT_DIR$/getDataES.py" />
+        <option value="$PROJECT_DIR$/firstPageGui1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
+    <option name="x" value="395" />
+    <option name="y" value="-40" />
     <option name="width" value="3235" />
     <option name="height" value="1735" />
   </component>
@@ -360,21 +353,28 @@
       <option name="project" value="LOCAL" />
       <updated>1561077634410</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final update (without comments)">
+      <created>1561768642887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561768642887</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13434023" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.13953489" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.44186047" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.33273703" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.11985689" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39892665" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,7 +395,8 @@
     <MESSAGE value="Almost finished the project" />
     <MESSAGE value="New feature" />
     <MESSAGE value="Update the Gui and more feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the Gui and more feature" />
+    <MESSAGE value="Final update (without comments)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final update (without comments)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/description">
@@ -719,15 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstPageGui1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordCloude.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -799,10 +791,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/firstPageGui1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#1#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/getDataES.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="867">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
