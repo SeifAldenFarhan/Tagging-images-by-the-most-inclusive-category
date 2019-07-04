@@ -12,4 +12,4 @@
   
   
  For project issues check out the [issues](https://github.com/SeifAldenFarhan/Tagging-images-by-the-most-inclusive-category/issues)
- For all other details check out the [wiki](https://github.com/SeifAldenFarhan/Tagging-images-by-the-most-inclusive-category/wiki).
+ For all other details check out the [wiki](https://github.com/SeifAldenFarhan/Tagging-images-by-the-most-inclusive-category/wiki/Project-Diary).
